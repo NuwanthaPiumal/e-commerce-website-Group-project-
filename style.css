@@ -6,6 +6,8 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+
+
 .navbar{
     display:flex;
     align-items: center;
@@ -28,23 +30,23 @@ a{
     color: #555;
 }
 p{
-    color: #555;
+    color: #2c2b2b;
 }
 .container{
-    max-width: 130px;
+    max-width: 1300px;
     margin: auto;
-    padding-left: 25px;
-    padding-right: 25px;
+    padding-left: 35px;
+    padding-right: 35px;
 }
 .row{
     display: flex;
-    align-items: center;
+    align-items:center;
     flex-wrap: wrap;
     justify-content: space-around;
 }
 .col-2{
     flex-basis: 50%;
-    min-width: 50px;
+    min-width: 70px;
 }
 .col-2 img{
     max-width: 100%;
@@ -53,7 +55,7 @@ p{
 .col-2 h1{
     font-size: 50px;
     line-height: 60px;
-    margin: 25px 0;
+    margin: 50px 0;
 }
 .btn{
     display: inline-block;
@@ -68,8 +70,9 @@ p{
     background: #563434;
 }
 .header{
-    background: radial-gradient(#fff,#ffd6d6);
+    background: radial-gradient(rgb(220, 134, 149),#e19393);
 }
 .header .row{
-    margin-top: 70;
+    margin-top: 70px;
 }
+
