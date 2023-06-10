@@ -45,12 +45,15 @@ p{
     justify-content: space-around;
 }
 .col-2{
+    text-align: center;
     flex-basis: 50%;
     min-width: 70px;
+    padding-left: 30px;
 }
 .col-2 img{
     max-width: 100%;
-    padding: 50px 0;
+    padding: 30px 0;
+    
 }
 .col-2 h1{
     font-size: 50px;
@@ -70,7 +73,7 @@ p{
     background: #563434;
 }
 .header{
-    background: radial-gradient(rgb(220, 134, 149),#e19393);
+    background: radial-gradient(rgb(30, 215, 228),#15e6df);
 }
 .header .row{
     margin-top: 70px;
@@ -138,7 +141,7 @@ h4{
 
 /*-------offer---------*/
 .offer{
-    background: radial-gradient(rgb(220, 134, 149),#e19393);
+    background: radial-gradient(rgb(103, 161, 232),#10d8ba);
     margin-top: 80px;
     padding: 30px 0;
 }
@@ -148,9 +151,10 @@ h4{
 small{
     color: hwb(259 3% 56%);
 }
+
 /*-----------testimonial----------*/
 .testimonial{
-    padding-top: 100px;
+    padding-top: 50px;
 }
 .testimonial .col-3{
     text-align: center;
@@ -185,7 +189,7 @@ small{
 /*-----------brands--------*/
 
 .brands{
-    margin: 100px auto;
+    margin: 40px auto;
 }
 .col-5{
     width: 160px;
@@ -337,3 +341,9 @@ select:focus{
 
     }
 }
+
+.comments{
+    text-align: center;
+    margin-top: 20px;
+}
+
