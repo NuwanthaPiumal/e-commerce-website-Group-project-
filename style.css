@@ -407,3 +407,33 @@ td:last-child{
 th:last-child{
     text-align: right;
 }
+
+
+/*----contact page----*/
+.container{
+    background: linear-gradient(rgba(0,0,0,0,6),rgba(0,0,0,0,9));
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    padding-bottom: 2%;
+}
+
+.container h2{
+    text-align: center;
+    text-decoration: underline;
+    text-underline-position: under;
+    color: rgb(238,235,235);
+    letter-spacing: 2px;
+}
+
+.container p{
+    text-align: center;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 3%;
+    color: #fff;
+    letter-spacing: 3px;
+}
+
