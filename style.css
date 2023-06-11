@@ -407,3 +407,53 @@ td:last-child{
 th:last-child{
     text-align: right;
 }
+
+
+
+/*----contact page----*/
+.container-1{
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    padding-bottom: 2%;
+}
+
+.container-1 h2{
+    text-align: center;
+    text-decoration: underline;
+    text-underline-position: under;
+    color: rgb(14, 12, 12);
+    letter-spacing: 2px;
+}
+
+.container-1 p{
+    text-align: center;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 3%;
+    color: #0d0c0c;
+    letter-spacing: 3px;
+}
+
+/*-------about page-------*/
+
+.title-2::after{
+    content: '';
+    background: #333733;
+    width: 200px;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform:translateX(-50%);
+}
+.title-2{
+    text-align: center;
+    margin: 0 auto 80px;
+    position: relative;
+    line-height: 60px;
+}
+
