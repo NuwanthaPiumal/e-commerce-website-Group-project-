@@ -457,3 +457,88 @@ th:last-child{
     line-height: 60px;
 }
 
+.contact-form i.fa{
+    font-size: 22px;
+    padding: 3%;
+    background-color: none;
+    margin: 2%;
+    border-radius: 80%;
+    cursor: pointer;
+    border:2px solid #e2dede;
+    color: #e2dede;
+}
+
+.contact-form i.fa:hover{
+    cursor: pointer;
+    border: 2px solid #fff;
+    color: #fff;
+}
+
+.contact-form{
+    display: grid;
+    grid-template-columns: auto auto;
+    /*grid-gap:5px;*/
+}
+
+.form-info{
+    font-size: 16px;
+    font-style: italic;
+    color: #fff;
+    letter-spacing: 2px;
+}
+
+input{
+    padding: 10px;
+    margin: 10px;
+    width: 70%;
+    background-color: #847d7d;
+    color: #fff;
+    border: none;
+    outline: none;
+}
+
+input::placeholder{
+    color: #fff;
+}
+
+textarea{
+    padding: 10px;
+    margin: 10px;
+    width: 70%;
+    background-color: #847d7d;
+    color: #fff;
+    border: none;
+    outline: none;
+}
+
+textarea::placeholder{
+    color: #fff;
+}
+
+.submit{
+    width: 40%;
+    background: none;
+    padding: 4px;
+    outline: none;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    height: 33px;
+    text-align: center;
+    cursor: pointer;
+    margin-left: 3%;
+    border: 2px solid rgb(205, 207, 209);
+    color: #a2a8a8;
+}
+
+.submit:hover{
+    border: 1px solid #fff;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+
+
+
+
