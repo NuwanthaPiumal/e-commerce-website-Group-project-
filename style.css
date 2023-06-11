@@ -408,6 +408,7 @@ th:last-child{
     text-align: right;
 }
 
+<<<<<<< HEAD
 
 /*----contact page----*/
 .container{
@@ -437,3 +438,23 @@ th:last-child{
     letter-spacing: 3px;
 }
 
+/*-------about page-------*/
+
+.title-2::after{
+    content: '';
+    background: #333733;
+    width: 200px;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform:translateX(-50%);
+}
+.title-2{
+    text-align: center;
+    margin: 0 auto 80px;
+    position: relative;
+    line-height: 60px;
+}
+>>>>>>> 863c6172823ea4ded9217aa8179b5b1003dbe66c
