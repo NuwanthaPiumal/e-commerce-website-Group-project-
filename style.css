@@ -408,11 +408,10 @@ th:last-child{
     text-align: right;
 }
 
-<<<<<<< HEAD
+
 
 /*----contact page----*/
 .container{
-    background: linear-gradient(rgba(0,0,0,0,6),rgba(0,0,0,0,9));
     background-size: cover;
     background-position: center;
     height: 100%;
@@ -424,7 +423,7 @@ th:last-child{
     text-align: center;
     text-decoration: underline;
     text-underline-position: under;
-    color: rgb(238,235,235);
+    color: rgb(14, 12, 12);
     letter-spacing: 2px;
 }
 
@@ -434,7 +433,7 @@ th:last-child{
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 3%;
-    color: #fff;
+    color: #0d0c0c;
     letter-spacing: 3px;
 }
 
@@ -457,4 +456,4 @@ th:last-child{
     position: relative;
     line-height: 60px;
 }
->>>>>>> 863c6172823ea4ded9217aa8179b5b1003dbe66c
+
