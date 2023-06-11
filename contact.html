@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Details - HOUSE OF FASHIONS(HoF) </title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+    
+</head> 
+
+<body>
+    <div class="header">
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <a href="index.html"><img src="https://i.ibb.co/52X4vQs/HOUSE.png" width="120px" height="80px"></a>
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><b><a href="index.html"> HOME</a></b></li>
+                    <li><b><a href="product.html"> PRODUCT</a></b></li>
+                    <li><b><a href="about.html"> ABOUT</a></b></li>
+                    <li><b><a href=" "> CONTACT</a></b></li>   
+                    <a href="cart.html"><img src="https://w7.pngwing.com/pngs/1022/32/png-transparent-shopping-cart-icon-shopping-cart-logo-icon-shopping-cart-label-coffee-shop-shopping-mall.png" width="40px" height="30px"></a>
+                </ul>
+            </nav>
+            
+            <img src="https://static.vecteezy.com/system/resources/previews/002/292/406/original/hamburger-menu-line-icon-free-vector.jpg" class="menu-icon" onclick="menutoggle()">
+        </div>
+    </div>
+
+    <!---single product details-->>
+
+    <div class="small-container">
+
+
+
+
+        
+    </div>
+
+        
+      <!--------footer------->
+
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Download Our App</h3>
+                <p>Download App for Android and ios mobile phone.</p>
+                <div class="app-logo">
+                    <img src="https://1000logos.net/wp-content/uploads/2021/07/Google-Play-Logo.png">
+                    <img src="https://www.vectorlogo.zone/logos/apple_appstore/apple_appstore-ar21.png">
+                </div>
+            </div>
+            <div class="footer-col-2">
+                <img src="https://static.vecteezy.com/system/resources/previews/009/127/408/non_2x/hof-logo-hof-letter-hof-letter-logo-design-initials-hof-logo-linked-with-circle-and-uppercase-monogram-logo-hof-typography-for-technology-business-and-real-estate-brand-vector.jpg">
+                <p>"Embrace the Art of Dressing: Where Fashion Becomes Your Canvas."</p>
+            </div>
+            <div class="footer-col-3">
+                <h3>Useful Links</h3>
+                <ul>
+                    <li>coupons</li>
+                    <li>Blog Post</li>
+                    <li>Return Policy</li>
+                    <li>Join Affiliate</li>
+                </ul>
+            </div>
+            <div class="footer-col-4">
+                <h3>Follow Us</h3>
+                <ul>
+                    <li>FaceBook</li>
+                    <li>Twitter</li>
+                    <li>Instragram</li>
+                    <li>YouTube</li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">Copyright 2023 - HOUSE oF FASHIONS</p>
+    </div>
+</div>
+
+<!--------is for toggle menu-------->
+
+<script>
+    var MenuItems = document.getElementById("MenuItems");
+
+    MenuItems.style.maxHeight = "0px";
+
+    function menutoggle(){
+        if(MenuItems.style.maxHeight == "0px"){
+            MenuItems.style.maxHeight == "200px";
+        }
+        else{
+            MenuItems.style.maxHeight == "0px";
+        }
+    }
+</script>
+
+
+</body>
+</html>
