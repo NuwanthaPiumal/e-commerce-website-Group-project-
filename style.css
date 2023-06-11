@@ -464,13 +464,13 @@ th:last-child{
     margin: 2%;
     border-radius: 80%;
     cursor: pointer;
-    border:2px solid #e2dede;
-    color: #e2dede;
+    border:2px solid #ced80f;
+    color: #ced80f;
 }
 
 .contact-form i.fa:hover{
     cursor: pointer;
-    border: 2px solid #fff;
+    border: 2px solid #ced80f;
     color: #fff;
 }
 
@@ -483,7 +483,7 @@ th:last-child{
 .form-info{
     font-size: 16px;
     font-style: italic;
-    color: #fff;
+    color: #3b0edc;
     letter-spacing: 2px;
 }
 
@@ -527,13 +527,13 @@ textarea::placeholder{
     text-align: center;
     cursor: pointer;
     margin-left: 3%;
-    border: 2px solid rgb(205, 207, 209);
-    color: #a2a8a8;
+    border: 2px solid rgb(223, 209, 12);
+    color: #d2dc14;
 }
 
 .submit:hover{
-    border: 1px solid #fff;
-    color: #fff;
+    border: 1px solid #d5e011;
+    color: #c1d80e;
     cursor: pointer;
 }
 
