@@ -411,7 +411,7 @@ th:last-child{
 
 
 /*----contact page----*/
-.container{
+.container-1{
     background-size: cover;
     background-position: center;
     height: 100%;
@@ -419,7 +419,7 @@ th:last-child{
     padding-bottom: 2%;
 }
 
-.container h2{
+.container-1 h2{
     text-align: center;
     text-decoration: underline;
     text-underline-position: under;
@@ -427,7 +427,7 @@ th:last-child{
     letter-spacing: 2px;
 }
 
-.container p{
+.container-1 p{
     text-align: center;
     width: 70%;
     margin-left: auto;
