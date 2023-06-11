@@ -481,3 +481,7 @@ th:last-child{
     overflow-y: scroll;
     height: 100%;
 }
+
+.cartImg > img{
+    width: 200px;
+}
